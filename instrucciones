@@ -1,0 +1,11 @@
+[Español]
+##Jeval-bot-tutorial##
+Jbot es un bot creado por el usuario llamado jezu g que usa como base pycord y python 3.8
+--------------------------------
+[installation]
+--------------------------------
+[PIP-library]
+pip install py-cord
+pip install "py-cord[voice]"
+pip install python-dotenv
+

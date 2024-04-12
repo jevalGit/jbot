@@ -1,5 +1,6 @@
 #imports
 import discord
+from discord.ext import commands
 import os 
 from dotenv import load_dotenv
 
@@ -12,7 +13,7 @@ async def on_ready():
 
 @bot.slash_command(name = "saludo", description = "Hola")
 async def hello(ctx):
-    await ctx.respond("Hola")
+    await ctx.send(f"Hola {ctx.author} ")
 #comandos-de-ejemplo
 
 #

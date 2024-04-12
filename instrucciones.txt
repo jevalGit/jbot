@@ -8,4 +8,7 @@ Jbot es un bot creado por el usuario llamado jezu g que usa como base pycord y p
 pip install py-cord
 pip install "py-cord[voice]"
 pip install python-dotenv
+--------------------------------
+[ctx.introduction]
 
+ctx.author = esté ctx le da la pocibilidad a que un comando pueda
